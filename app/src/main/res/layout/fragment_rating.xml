@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/src"
+
+    tools:context=".Fragment.RatingFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="269dp"
+        android:layout_height="380dp"
+        android:layout_gravity="center_horizontal">
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="114dp"
+            android:layout_weight="1"
+            android:layout_alignParentRight="true" />
+
+        <Button
+            android:id="@+id/btnselect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ratingBar"
+            android:layout_alignStart="@+id/ratingBar"
+            android:layout_below="@+id/ratingBar"
+            android:layout_marginLeft="66dp"
+            android:layout_marginStart="66dp"
+            android:layout_marginTop="50dp"
+            android:text="Submit" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>

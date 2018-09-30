@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.MenuFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/nonv"
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:src="@drawable/nonv"/>
+    <TextView
+        android:text="      Non Veg"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nonv"/>
+    <ImageView
+        android:id="@+id/veg"
+        android:layout_toRightOf="@+id/nonv"
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:src="@drawable/veg"/>
+    <TextView
+        android:text="          Veg"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/nonv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/veg"/>
+
+    <ImageView
+        android:id="@+id/snack"
+        android:layout_toRightOf="@+id/veg"
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:src="@drawable/snack"/>
+    <TextView
+        android:text="       Snack"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/veg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/snack"/>
+
+    <ImageView
+        android:id="@+id/soup"
+       android:layout_below="@+id/nonv"
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:src="@drawable/soup"/>
+    <TextView
+        android:text="       Soup"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/soup"/>
+
+    <ImageView
+        android:id="@+id/app"
+        android:layout_below="@+id/veg"
+        android:layout_toRightOf="@+id/soup"
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:src="@drawable/app"/>
+    <TextView
+        android:text="    Buffet"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/soup"
+        android:layout_below="@+id/app"/>
+
+    <ImageView
+        android:id="@+id/dessert"
+        android:layout_below="@+id/snack"
+        android:layout_toRightOf="@+id/app"
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:src="@drawable/dessert"/>
+    <TextView
+        android:text="   Dessert"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/app"
+        android:layout_below="@+id/dessert"/>
+    <ImageView
+        android:id="@+id/drinks"
+        android:layout_below="@+id/soup"
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:src="@drawable/drinks"/>
+    <TextView
+        android:text="       Drinks"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/drinks"/>
+
+    <ImageView
+        android:id="@+id/thali"
+        android:layout_below="@+id/app"
+        android:layout_toRightOf="@+id/drinks"
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:src="@drawable/thali"/>
+    <TextView
+        android:text="       Thali"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/drinks"
+        android:layout_below="@+id/thali"/>
+    <ImageView
+        android:id="@+id/chinese"
+        android:layout_below="@+id/dessert"
+        android:layout_toRightOf="@+id/thali"
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:src="@drawable/chinese"/>
+    <TextView
+        android:text=" Chinese"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/thali"
+        android:layout_below="@+id/chinese"/>
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+    />
+
+</FrameLayout>
